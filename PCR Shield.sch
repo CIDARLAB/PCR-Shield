@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:arduino
 LIBS:PCR Shield-cache
 EELAYER 25 0
 EELAYER END
@@ -302,42 +301,6 @@ F 3 "" H 7100 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 4900 6300 4900
-Wire Wire Line
-	6300 4900 6300 5400
-Wire Wire Line
-	6300 5400 7300 5400
-Wire Wire Line
-	5350 4800 6400 4800
-Wire Wire Line
-	6400 4800 6400 5550
-Wire Wire Line
-	6400 5550 7300 5550
-Wire Wire Line
-	5350 4700 6500 4700
-Wire Wire Line
-	6500 4700 6500 5700
-Wire Wire Line
-	6500 5700 7300 5700
-Wire Wire Line
-	5350 4600 6300 4600
-Wire Wire Line
-	6300 4600 6300 4050
-Wire Wire Line
-	6300 4050 7300 4050
-Wire Wire Line
-	5350 4500 6400 4500
-Wire Wire Line
-	6400 4500 6400 4200
-Wire Wire Line
-	6400 4200 7300 4200
-Wire Wire Line
-	5350 4400 6500 4400
-Wire Wire Line
-	6500 4400 6500 4350
-Wire Wire Line
-	6500 4350 7300 4350
-Wire Wire Line
 	5350 4000 5800 4000
 Wire Wire Line
 	5350 3900 5800 3900
@@ -409,4 +372,54 @@ Wire Wire Line
 	7100 5850 7100 5900
 Wire Wire Line
 	7300 3900 7100 3900
+Wire Wire Line
+	7100 5250 7300 5250
+Text Label 5700 4400 0    60   ~ 0
+DO1
+Text Label 5700 4500 0    60   ~ 0
+CS1
+Text Label 5700 4600 0    60   ~ 0
+CLK1
+Text Label 5700 4700 0    60   ~ 0
+DO2
+Text Label 5700 4800 0    60   ~ 0
+CS2
+Text Label 5700 4900 0    60   ~ 0
+CLK2
+Wire Wire Line
+	5350 4400 5700 4400
+Wire Wire Line
+	5350 4500 5700 4500
+Wire Wire Line
+	5350 4600 5700 4600
+Wire Wire Line
+	5350 4700 5700 4700
+Wire Wire Line
+	5350 4800 5700 4800
+Wire Wire Line
+	5350 4900 5700 4900
+Wire Wire Line
+	7300 4050 6750 4050
+Wire Wire Line
+	7300 4200 6750 4200
+Wire Wire Line
+	7300 4350 6750 4350
+Wire Wire Line
+	7300 5400 6750 5400
+Wire Wire Line
+	7300 5550 6750 5550
+Wire Wire Line
+	7300 5700 6750 5700
+Text Label 6750 4050 0    60   ~ 0
+CLK1
+Text Label 6750 4200 0    60   ~ 0
+CS1
+Text Label 6750 4350 0    60   ~ 0
+DO1
+Text Label 6750 5400 0    60   ~ 0
+CLK2
+Text Label 6750 5550 0    60   ~ 0
+CS2
+Text Label 6750 5700 0    60   ~ 0
+DO2
 $EndSCHEMATC

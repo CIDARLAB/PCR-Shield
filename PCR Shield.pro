@@ -1,4 +1,4 @@
-update=Friday, December 15, 2017 'AMt' 01:34:43 AM
+update=Friday, December 15, 2017 'PMt' 03:00:47 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=arduino
 LibName31=PCR Shield-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
